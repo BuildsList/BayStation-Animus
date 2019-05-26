@@ -1,18 +1,18 @@
 #define SKILL_NONE     1
-#define SKILL_BASIC    2
-#define SKILL_ADEPT    3
-#define SKILL_EXPERT   4
-#define SKILL_PROF     5
+#define SKILL_BASIC    1
+#define SKILL_ADEPT    1
+#define SKILL_EXPERT   1
+#define SKILL_PROF     1
 #define HAS_PERK       SKILL_NONE + 1
 
 #define SKILL_MIN      1 // Min skill value selectable
-#define SKILL_MAX      5 // Max skill value selectable
-#define SKILL_DEFAULT  4 //most mobs will default to this
+#define SKILL_MAX      1 // Max skill value selectable
+#define SKILL_DEFAULT  1 //most mobs will default to this
 
 #define SKILL_EASY       1
-#define SKILL_AVERAGE    2
-#define SKILL_HARD       4
-#define SKILL_INCREDIBLE 6
+#define SKILL_AVERAGE    1
+#define SKILL_HARD       1
+#define SKILL_INCREDIBLE 1
 
 #define SKILL_BUREAUCRACY   /decl/hierarchy/skill/organizational/bureaucracy
 #define SKILL_FINANCE       /decl/hierarchy/skill/organizational/finance
